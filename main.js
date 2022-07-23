@@ -35,6 +35,9 @@ Vue.use(ElementUI, { locale })
 import catagrey from '@/components/Catagrey'
 Vue.component(catagrey.name, catagrey)
 Vue.config.productionTip = false
+for(let i=0;i<100;i++) {
+	console.log(i)
+}
 
 new Vue({
   el: '#app',
