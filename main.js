@@ -27,6 +27,11 @@ if (process.env.NODE_ENV === 'production') {
   const { mockXHR } = require('../mock')
   mockXHR()
 }
+  
+  
+  
+  
+  console.log('yuzuru')
 
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
@@ -38,6 +43,7 @@ Vue.config.productionTip = false
 for(let i=0;i<100;i++) {
 	console.log(i)
 }
+
 
 new Vue({
   el: '#app',
