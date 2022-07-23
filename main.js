@@ -27,6 +27,11 @@ if (process.env.NODE_ENV === 'production') {
   const { mockXHR } = require('../mock')
   mockXHR()
 }
+  
+  
+  
+  
+  console.log('yuzuru')
 
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
@@ -35,6 +40,7 @@ Vue.use(ElementUI, { locale })
 import catagrey from '@/components/Catagrey'
 Vue.component(catagrey.name, catagrey)
 Vue.config.productionTip = false
+
 
 new Vue({
   el: '#app',
